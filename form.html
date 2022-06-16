@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-image:url('images/16.jpg');">
+    <h1 style="text-align: center;color:red; text-decoration: underline;">Registration Form in html</h1>
+    <form>
+        <table border="3" align="center">
+            <tr>
+                <td><label >Nmae</label></td>
+                <td><input type="text" placeholder="Enter your Name"></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td>  <textarea row="5" cols="30" placeholder="Enter your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>City</label></td>
+                <td>
+                    <select>
+                        <option>--select city--</option>
+                        <option>Noida</option>
+                        <option>delhi</option>
+                        <option>Patna</option>
+                        <option>Bhagalpur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="Email"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+            <td><label>Date</label></td>
+            <td><input type="date"/></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female</td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td>
+                 <input type="checkbox"/>Football
+                 <input type="checkbox"/>Cricket <br/>
+                  <input type="checkbox"/>Chess
+                 <input type="checkbox"/>Singing
+            </td>
+       </tr>
+       <tr>
+           <td><label>upload Image</label></td>
+           <td><input type="file"></td>
+       </tr>
+       <tr>
+           <td>
+               <input type="submit" value="Register">
+           <input type="reset" value="clear"></td>
+       </tr>
+    </table>
+    </form>
+</body>
+</html>
